@@ -8,7 +8,7 @@ import org.junit.Test;
  * @date 2019/5/19
  * @Description ${DESCRIBE}
  **/
-public class CompareTest{
+public class CompareTest {
     private Compare compare = new Compare();
 
     @Test
@@ -18,7 +18,7 @@ public class CompareTest{
 
     @Test
     public void cmpTest2(){
-        Assert.assertSame("比较错误",-1,compare.compareInt(2,2));
+        Assert.assertSame("比较错误",0,compare.compareInt(2,2));
     }
 
     @Test
