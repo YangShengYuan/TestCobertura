@@ -1,15 +1,11 @@
-package com.example.demo3;
+package com.example.shenmi;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.junit.Assert;
-import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @author Yang ShengYuan
- * @date 2019/5/19
+ * @date 2019/5/22
  * @Description ${DESCRIBE}
  **/
 public class ComputeTest {
