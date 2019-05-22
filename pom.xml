@@ -53,9 +53,17 @@
                 <version>2.7</version>
                 <configuration>
                     <formats>
-                        <format>html</format>
                         <format>xml</format>
+                        <format>html</format>
                     </formats>
+
+                    <maxmem>256m</maxmem>
+                    <instrumentation>
+                        <excludes>
+                            <exclude>com/alertavert/**/*Configuration.class</exclude>
+                            <exclude>com/alertavert/**/*Application/class</exclude>
+                        </excludes>
+                    </instrumentation>
                     <check/>
                 </configuration>
             </plugin>
